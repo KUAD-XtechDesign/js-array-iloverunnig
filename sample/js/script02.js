@@ -6,6 +6,14 @@ $(function(){
     console.log(students)
   })
   
+  $("#button01").on("click",function( ){  
+   let txt =""
+    for(let i=0; i<students.length; i++ ){
+      txt += students[1]
+    }
+
+    $("#content").text(txt);
+  })
 
 
 
