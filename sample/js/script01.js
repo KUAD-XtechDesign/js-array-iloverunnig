@@ -10,6 +10,9 @@ $(function(){
     $("#content").text("最初のメンバーは" + students[0]+"/人数は" + students.length);
   })
 
+  　$("#button02").on("click",function( ){  
+    $("#content").text(students[2]);
+  })
  
 
 
