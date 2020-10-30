@@ -28,7 +28,7 @@ $(function(){
   })
   
   $("#button05").on("click",function( ){  
-    students.push("山下")
+    //students.push("山下")
   })
 
 })
