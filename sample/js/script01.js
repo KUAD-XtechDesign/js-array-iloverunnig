@@ -13,6 +13,10 @@ $(function(){
   　$("#button02").on("click",function( ){  
     $("#content").text(students[2]);
   })
+
+  　$("#button03").on("click",function( ){  
+    $("#content").text();(students[students.length-1]);
+  })
  
 
 
