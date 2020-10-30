@@ -19,9 +19,16 @@ $(function(){
   })
  
   　$("#button04").on("click",function( ){  
-    students.push(山下)
+    //students.push("山下")
+    if(students[length-1]=="山下"){
+
+    }else{
+      students.push("山下")
+    }
   })
   
-
+  $("#button05").on("click",function( ){  
+    students.push("山下")
+  })
 
 })
