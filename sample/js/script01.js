@@ -15,9 +15,13 @@ $(function(){
   })
 
   　$("#button03").on("click",function( ){  
-    $("#content").text();(students[students.length-1]);
+    $("#content").text(students[students.length-1]);
   })
  
+  　$("#button04").on("click",function( ){  
+    students.push(山下)
+  })
+  
 
 
 })
