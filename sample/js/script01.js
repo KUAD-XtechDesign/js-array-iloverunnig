@@ -6,10 +6,10 @@ $(function(){
     console.log(students)
   })
 
-  　$("#button01").on("click",function(){  
-    $(#content).text("最初のメンバーは"＋student[0]+"/人数は"＋students.length);
+  　$("#button01").on("click",function( ){  
+    $("#content").text("最初のメンバーは" + students[0]+"/人数は" + students.length);
   })
-  
+
  
 
 
