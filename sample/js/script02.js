@@ -9,11 +9,20 @@ $(function(){
   $("#button01").on("click",function( ){  
    let txt =""
     for(let i=0; i<students.length; i++ ){
-      txt += students[1]
+      txt += students[i]
     }
 
     $("#content").text(txt);
   })
+
+  $("#button02").on("click",function( ){  
+    let txt =""
+     for(let i=0; i<students.length; i++ ){
+       txt +="<div class = 'student_name' id=students"+i+"'>" +  students[i]+"</div>"
+     }
+ 
+     $("#content").html(txt);
+   })
 
 
 
